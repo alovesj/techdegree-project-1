@@ -4,29 +4,22 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 3em;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   color: #222;
   background-color: #B86A68;
 }
-
-.main-image {
-  width: 200px;
-  height: 200px;
-  border: solid 4px black;
-  border-radius: 50%;
-}
-
 h1 {
   background-color: #e2e2e2;
   padding: 10px;
   transition: all 4s;
 }
-
-.section-title {
-  text-transform: uppercase;
+h2, h3, h4 {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
 }
+
 .main-container {
   display: inline-block;
   flex-flow: row wrap;
@@ -38,9 +31,9 @@ h1 {
 .homelink {
   display:block;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 50px;
 }
-.resourceslink {
+.resumelink {
   display:block;
   justify-content: center;
   padding-top: 20px;

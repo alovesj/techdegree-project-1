@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: none;
+  background: #314A72;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -119,6 +119,13 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #314a72;
 }
+/* .image-row {
+  display: flex;
+}
+.column {
+  flex: 33.33%;
+  padding: 5px;
+} */
 
 footer {
   width: 100%;
@@ -129,6 +136,7 @@ footer {
 footer .copyright {
   top: -8px;
   font-size: .75em;
+  color: #fff;
 }
 
 footer ul {
