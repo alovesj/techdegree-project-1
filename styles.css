@@ -119,13 +119,16 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #314a72;
 }
-/* .image-row {
-  display: flex;
+
+.container {
+  display:flex;
+  max-width:100%;
+  border: 1px solid black;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-.column {
-  flex: 33.33%;
-  padding: 5px;
-} */
+
+*/
 
 footer {
   width: 100%;
@@ -137,6 +140,7 @@ footer .copyright {
   top: -8px;
   font-size: .75em;
   color: #fff;
+
 }
 
 footer ul {
@@ -158,6 +162,7 @@ a.social {
   background-size: 30px 30px;
   opacity: .4;
   transition: all .5s;
+  flex-wrap: wrap;
 }
 a.twitter {
   background-image: url(images/twitter.svg);
@@ -181,10 +186,11 @@ a.social:hover {
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex;
-      max-width: 1200px;
+      max-width: 100vw;
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
+      flex-wrap: wrap;
   }
 
   header {
@@ -209,4 +215,5 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+    flex-wrap: wrap;
   }
