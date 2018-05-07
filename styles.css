@@ -123,12 +123,9 @@ ul.skills {
 .container {
   display:flex;
   max-width:100%;
-  border: 1px solid black;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
-*/
 
 footer {
   width: 100%;
