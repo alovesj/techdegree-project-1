@@ -183,14 +183,28 @@ a.social:hover {
   clear: both;
 }
 /* Styles resources page */
+.main-container {
+  padding:5em;
+}
+.resume .main-nav,
+.resources .main-nav{
+  background: #B05957;
+
+}
+.resume .main-nav:hover,
+.resources .main-nav:hover{
+  border-bottom: 1px solid #fff;
+  transition: all .5s;
+}
 .resources {
-  padding: 3em;
+  padding: 0;
   font-family: 'Raleway', sans-serif;
   background-color: #B86A68;
 }
 .resources h1 {
   color:#000;
-  background-color: #e2e2e2;
+  background-color: #fff;
+  margin-bottom: 2em;
   padding: 10px;
   transition: all 4s;
 }
@@ -218,28 +232,7 @@ a.social:hover {
 }
 
 
-.resumelink,
-.resourceslink {
-  display:block;
-  justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 90px;
-}
-.homelink {
-  display:block;
-  justify-content: center;
-  padding-top: 50px;
-}
-.resumelink a,
-.homelink a,
-.resourceslink a {
-  color: #fff;
-}
-.resumelink a:hover,
-.homelink a:hover,
-.resourceslink a:hover {
-  color: #314a72;
-}
+
 /* Styles for resume page */
 .main-image {
   width: 200px;
@@ -288,3 +281,5 @@ a.social:hover {
     margin: 40px auto;
     flex-wrap: wrap;
   }
+
+}
